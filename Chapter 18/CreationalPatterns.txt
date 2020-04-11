@@ -1,0 +1,22 @@
+Creation Patterns:
+
+
+Creational patterns are design patterns that deal with how an object is created. 
+These patterns create objects in a manner suitable for a particular situation.
+There are two basic ideas behind creational patterns. 
+The first is encapsulating the knowledge of which concrete types should be created and the second is hiding how the instances of these types are created.
+There are five well-known patterns that are a part of the creational pattern category. They are as follows:
+
+	Abstract factory pattern: 
+		This provides an interface for creating related objects without specifying the concrete type
+	Builder pattern: 
+		This separates the construction of a complex object from its representation, so the same process can be used to create similar types 
+	Factory method pattern: 
+		This creates objects without exposing the underlying logic of how the object (or which type of object) is created 
+	Prototype pattern: 
+		This creates an object by cloning an existing one 
+	Singleton pattern: 
+		This allows one (and only one) instance of a class for the lifetime of an applications
+
+In this chapter, we are going to show examples of how to implement the singleton and builder patterns in Swift. 
+Let's start off by looking at one of the most controversial and possibly overused design patterns, the singleton pattern.

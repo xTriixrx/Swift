@@ -1,0 +1,28 @@
+Behavioral Patterns:
+
+
+Behavioral design patterns explain how types interact with each other. 
+These patterns describe how different instances of types send messages to each other to make things happen.
+
+There are nine well-known patterns that are part of the behavioral design pattern type. They are as follows:
+
+	Chain of responsibility: 
+		This is used to process a variety of requests, each of which may be delegated to a different handler.
+	Command: 
+		This creates objects that can encapsulate actions or parameters so that they can be invoked later or by a different component.
+	Iterator: 
+		This allows us to access the elements of an object sequentially without exposing the underlying structure.
+	Mediator: 
+		This is used to reduce coupling between types that communicate with each other.
+	Memento: 
+		This is used to capture the current state of an object and store it in a manner that can be restored later.
+	Observer: 
+		This allows an object to publish changes to an object's state. Other objects can then subscribe so they can be notified of any changes. 
+	State: 
+		This is used to alter the behavior of an object when its internal state changes.
+	Strategy: 
+		This allows one out of a family of algorithms to be chosen at runtime.
+	Visitor: 
+		This is a way of separating an algorithm from an object structure.
+
+In this section, we are going to give examples of how to use strategy and command patterns in Swift. Let's start off by looking at the command pattern.

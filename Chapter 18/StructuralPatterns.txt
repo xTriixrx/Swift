@@ -1,0 +1,23 @@
+Structural Patterns:
+
+Structural design patterns describe how types can be combined to form larger structures.
+These larger structures can generally be easier to work with and hide a lot of the complexity of the individual types. 
+Most patterns in the structural pattern category involve connections between objects.
+There are seven well-known patterns that are part of the structural design pattern type. These are as follows:
+
+	Adapter: 
+		This allows types with incompatible interfaces to work together 
+	Bridge: 
+		This is used to separate the abstract elements of a type from the implementation so the two can vary
+	Composite: 
+		This allows us to treat a group of objects as a single object 
+	Decorator: 
+		This lets us add or override behavior in an existing method of an object
+	Facade: 
+		This provides a simplified interface for a larger and more complex body of code
+	Flyweight: 
+		This allows us to reduce the resources needed to create and use a large number of similar objects
+	Proxy: 
+		This is a type acting as an interface for another class or classes
+
+In this chapter, we are going to give examples of how to use the bridge, facade, and proxy patterns in Swift. Let's start off by looking at the bridge pattern.
